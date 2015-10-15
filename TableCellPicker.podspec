@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "TableCellPicker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TableCellPicker."
+  s.summary          = "A table view cell that displays a picker view for selecting a value."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+			This CocoaPod provides the ability to instantiate a custom tableview cell with a picker view for selecting values.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TableCellPicker"
+  s.homepage         = "https://github.com/karryoberes/TableCellPicker"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Oberes, Karry Raia C." => "karry.raia.c.oberes@accenture.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TableCellPicker.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/karryoberes/TableCellPicker.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

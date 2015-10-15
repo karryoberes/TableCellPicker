@@ -1,0 +1,14 @@
+PODS:
+  - TableCellPicker (0.1.0)
+
+DEPENDENCIES:
+  - TableCellPicker (from `../`)
+
+EXTERNAL SOURCES:
+  TableCellPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TableCellPicker: 7918a5fd2a725c7adfa4cb8f46095baa5c31db02
+
+COCOAPODS: 0.39.0

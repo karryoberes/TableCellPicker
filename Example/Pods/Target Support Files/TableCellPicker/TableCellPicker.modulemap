@@ -1,0 +1,6 @@
+framework module TableCellPicker {
+  umbrella header "TableCellPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
