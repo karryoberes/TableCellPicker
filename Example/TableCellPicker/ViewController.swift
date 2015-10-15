@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     let CELL_ID = "TableCellPicker"
     var arrayValues = ["New", "Finished", "Cancelled", "Rescheduled"]
-    var anotherArrayValues = ["Karry", "Karen", "Elai", "Den"]
+    var anotherArrayValues = ["John", "Smith", "Juan", "dela Cruz"]
     
     var pickerValue: String?
     var anotherPickerValue: String?
@@ -24,27 +24,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // to set the desired normal & expanded cell height
+        // To set the desired normal & expanded cell height
         TableCellPicker.normalHeight = 40
         TableCellPicker.expandedHeight = 201
         
-        // to set the picker view properties
+        // To set the picker view properties
         TableCellPicker.setPickerBackgroundColor = UIColor.clearColor()
         TableCellPicker.setPickerFontStyle = UIFont(name: "Chalkduster", size: 15)!
         TableCellPicker.setPickerTextColor = UIColor.blueColor()
         TableCellPicker.setPickerTextAlignment = NSTextAlignment.Center
         
-        // register the nib of the custom cell first
+        // To register the nib of the custom cell first
         let nibBundle = NSBundle(forClass: TableCellPicker.self)
         let cellNib = UINib(nibName: CELL_ID, bundle: nibBundle)
-        tblView.registerNib(cellNib, forCellReuseIdentifier: CELL_ID )
-
-        
+        tblView.registerNib(cellNib, forCellReuseIdentifier: CELL_ID)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -52,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        // get the height for specific index path
+        // Get the height for specific index path
         return TableCellPicker.fetchCellHeight(indexPath)
     }
     
@@ -63,14 +60,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if indexPath.row == 0 || indexPath.row == 1 {
             cell.delegate = self
             
+            // if-else condition for the row that will use a custom cell with the class TableCellPicker
+            
             if indexPath.row == 0 {
+                // Set the row where the pickerview is used
                 cell.pickerView.tag = indexPath.row
+                // Set the values to be used by the pickerview
                 cell.pickerItems = arrayValues
                 
+                // Set the value for the title label
                 cell.label.text = "Status:"
+                // Set the custom properties for the title label
                 cell.setLabelProperty(UIColor.blackColor(), textFontStyle: UIFont(name: "Arial", size: 15)!, textBackgroundColor: UIColor.clearColor(), textAlignment: NSTextAlignment.Left)
                 
+                // Set the value for the selected pickerview value label
                 cell.textLbl.text = pickerValue
+                // Set the custom properties for the selected pickerview value label
                 cell.setTextLabelProperty(UIColor.blackColor(), textFontStyle: UIFont(name: "Arial", size: 15)!, textBackgroundColor: UIColor.clearColor(), textAlignment: NSTextAlignment.Left)
             }
             else if indexPath.row == 1 {
@@ -85,6 +90,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }
         
+        // Returns the selected value of the pickerview
         cell.currentItem = cell.textLbl.text
         cell.pickerView.reloadAllComponents()
         
@@ -92,16 +98,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // set the selected index path
+        // Set the selected index path
         TableCellPicker.selectedIndexPath = indexPath
         
-        // reload the specific index path
+        // Reload the specific index path
         tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
     }
     
     // MARK: - PickerTableViewCell Delegate
     
     func updatePicker(pickerTag: Int, row: Int) {
+        // Index = row where the pickerview is used
+        
         if pickerTag == 0 {
             pickerValue = arrayValues[row]
         }
