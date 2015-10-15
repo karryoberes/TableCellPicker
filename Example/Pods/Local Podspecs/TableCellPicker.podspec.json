@@ -1,15 +1,15 @@
 {
   "name": "TableCellPicker",
   "version": "0.1.0",
-  "summary": "A short description of TableCellPicker.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TableCellPicker",
+  "summary": "A table view cell that displays a picker view for selecting a value.",
+  "description": "This CocoaPod provides the ability to instantiate a custom tableview cell with a picker view for selecting values.",
+  "homepage": "https://github.com/karryoberes/TableCellPicker",
   "license": "MIT",
   "authors": {
     "Oberes, Karry Raia C.": "karry.raia.c.oberes@accenture.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TableCellPicker.git",
+    "git": "https://github.com/karryoberes/TableCellPicker.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -19,7 +19,7 @@
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "TableCellPicker": [
-      "Pod/Assets/*.png"
+      "Pod/**/*.xib"
     ]
   }
 }

@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		18B9160E11FAC9810BA061A68594C999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		2A1C460CB5BB36207B6E2F11795BCE6B /* TableCellPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5821B157FBECE1DFC9E52B4D28C40827 /* TableCellPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45494F6BFB084E7C11C166AEE3D23711 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F2A844031F40CE4041DD63D147583 /* ReplaceMe.swift */; };
 		4F8F3AB3F7F055CC017714B0239E8C88 /* Pods-TableCellPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457B180CFA5F04681816A3EAD70BEB89 /* Pods-TableCellPicker_Tests-dummy.m */; };
+		5807FFBE2DEA3FA76326D5473CDE401B /* TableCellPicker-TableCellPicker-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B3CED1947F1C76393CC279C7E0F5A6 /* TableCellPicker-TableCellPicker-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6934E5D640CDF72DE92D2A5A4C582133 /* TableCellPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2695C88B8583A82D1E9D32F6A2384B8A /* TableCellPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E4FDB72779AC12959ABB841E3FAF27F /* Pods-TableCellPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD2F29F7CB3FC92EAF3B5BB1BC62056 /* Pods-TableCellPicker_Example-dummy.m */; };
 		6F32C27A164CED4415DCFDCB111097FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		734217F2E399420FCCFB7FABC04857AF /* TableCellPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DE066120F6C97BBC596B187EF00FF22 /* TableCellPicker.bundle */; };
 		739F7A47090CF0B8785B685C5E8D5EBD /* Pods-TableCellPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D203A8667B5BB4298DDFE15EA797202 /* Pods-TableCellPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73CA20995DE98CC062A669049E04602B /* TableCellPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = A201A04DDFFDF28D54F016FB8BD71D6A /* TableCellPicker.xib */; };
 		7DB91CECC9A2E83A4D00BA62E4AE167E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		DCCE38743E8DE00990A79B91892049C4 /* TableCellPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212BE38571AAAC4E41F5E037CACAFC97 /* TableCellPicker-dummy.m */; };
+		82A1F5F660056B815B9B331D3535FB2F /* TableCellPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89F3D5A3877348DE6BA4042A1BCF26 /* TableCellPicker.swift */; };
+		A9381AAC1AA57EE62E5BA25ACFF30B27 /* TableCellPicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = A201A04DDFFDF28D54F016FB8BD71D6A /* TableCellPicker.xib */; };
+		CEFEB2C75C780B0207366BD3218238D3 /* TableCellPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5A774ED179F36E2EC65D83DCCFBFAC /* TableCellPicker-dummy.m */; };
 		F2B9F93E1D4C3CE1DF321A870B2E5603 /* Pods-TableCellPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 275061BA6AFF459641595130AF6538FC /* Pods-TableCellPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -45,10 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0580A5C91DB786257D9C35FE7123C7DD /* TableCellPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableCellPicker.xcconfig; sourceTree = "<group>"; };
 		0730165E27CBB1EF62284A47A411FD3F /* Pods-TableCellPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableCellPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1CFED8DF6A83BD3A4540226283701EBE /* TableCellPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TableCellPicker.modulemap; sourceTree = "<group>"; };
 		1EF1495A916B3CF969E5CDFD6D4DDCA9 /* Pods-TableCellPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableCellPicker_Tests-resources.sh"; sourceTree = "<group>"; };
-		212BE38571AAAC4E41F5E037CACAFC97 /* TableCellPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableCellPicker-dummy.m"; sourceTree = "<group>"; };
-		2349AE4ACEF3C8E23AE520A1D9DD719C /* TableCellPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableCellPicker.xcconfig; sourceTree = "<group>"; };
+		2695C88B8583A82D1E9D32F6A2384B8A /* TableCellPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableCellPicker-umbrella.h"; sourceTree = "<group>"; };
 		275061BA6AFF459641595130AF6538FC /* Pods-TableCellPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableCellPicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		297A22F2109B8FE54DB41F5B800D7F3E /* Pods-TableCellPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableCellPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2BE0455CAB910471E8B63EBD3C619824 /* Pods_TableCellPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableCellPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,27 +60,28 @@
 		35C3AB7E3754F06D31A70C6C0BD85EB1 /* Pods-TableCellPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableCellPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		364F3AE45458CE2BA1998ECF504886AA /* Pods_TableCellPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableCellPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E3BF43FD0BEE4D40B2DDB87B98304B /* Pods-TableCellPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TableCellPicker_Example.modulemap"; sourceTree = "<group>"; };
+		3C6EBC245115F32FC5B61319BC9BD7CB /* TableCellPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableCellPicker-prefix.pch"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		457B180CFA5F04681816A3EAD70BEB89 /* Pods-TableCellPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableCellPicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		4B4F2A844031F40CE4041DD63D147583 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		5588E19BAFE8B9EDDDF8F49618BD49CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5821B157FBECE1DFC9E52B4D28C40827 /* TableCellPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableCellPicker-umbrella.h"; sourceTree = "<group>"; };
-		6693098235257A741D45F6B618AD32E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CFA952D2DA5D7F38F5F5D2F0938F355 /* TableCellPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TableCellPicker.modulemap; sourceTree = "<group>"; };
 		6DE066120F6C97BBC596B187EF00FF22 /* TableCellPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCellPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D3C84E331CF040EC370023EFBFCE35 /* Pods-TableCellPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TableCellPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		7D203A8667B5BB4298DDFE15EA797202 /* Pods-TableCellPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableCellPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7D478B8FEF33E2D0BAB0656581032862 /* Pods-TableCellPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableCellPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F18A0D500E9EDC2FE4A4797AE9308EF /* Pods-TableCellPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableCellPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8FCD4E7818E656AC77D4C482CA031A75 /* Pods-TableCellPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableCellPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B8F7CB4D55E58507E62FE5447BBB527 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D279B14E0039FD47BD6418902220949 /* Pods-TableCellPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableCellPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D6FE9B4E30D51F7792AFBF886B60897 /* Pods-TableCellPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableCellPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A201A04DDFFDF28D54F016FB8BD71D6A /* TableCellPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TableCellPicker.xib; sourceTree = "<group>"; };
 		B09CBCBC4DAB2432D05DA2A59A70AAAF /* Pods-TableCellPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableCellPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BDD2F29F7CB3FC92EAF3B5BB1BC62056 /* Pods-TableCellPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableCellPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		C9B3CED1947F1C76393CC279C7E0F5A6 /* TableCellPicker-TableCellPicker-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableCellPicker-TableCellPicker-Bridging-Header.h"; sourceTree = "<group>"; };
 		EAA7F483CC51C51686209535E54FD5F8 /* TableCellPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableCellPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5A774ED179F36E2EC65D83DCCFBFAC /* TableCellPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableCellPicker-dummy.m"; sourceTree = "<group>"; };
 		F4ABABBAB7E9DB51BF5285804407B7A0 /* Pods-TableCellPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableCellPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7B1BFA5E3F70AE44FBF61983900999C /* TableCellPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableCellPicker-prefix.pch"; sourceTree = "<group>"; };
+		FB89F3D5A3877348DE6BA4042A1BCF26 /* TableCellPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableCellPicker.swift; sourceTree = "<group>"; };
 		FE83ED82ED629222610BFA5569CC7CB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,22 +120,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		111CA7A5FCB85C232D43008FC024B584 /* TableCellPicker */ = {
+		03F1089C618F45D677B6530EEDB27A83 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				62E73F55918AE7B135DB6F8B863B7A50 /* Pod */,
-				8DAB04771733EA40F9E60A17B7D1B53A /* Support Files */,
+				9CD96B388A0F47D7918001FB2D8A9816 /* Classes */,
 			);
-			name = TableCellPicker;
-			path = ../..;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		1B10635C311A1C7DC6E55B8A7C7E8056 /* Classes */ = {
+		042858B32A92FC4E22FB735EE6DC8B61 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B4F2A844031F40CE4041DD63D147583 /* ReplaceMe.swift */,
+				BA86C7D37114EBAF9DDE1787F4730F9A /* TableCellPicker */,
 			);
-			path = Classes;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3E669B46A340548DCFE6D59F282B28ED /* Pods-TableCellPicker_Example */ = {
@@ -151,19 +154,33 @@
 			path = "Target Support Files/Pods-TableCellPicker_Example";
 			sourceTree = "<group>";
 		};
-		62E73F55918AE7B135DB6F8B863B7A50 /* Pod */ = {
+		4B07F36AAEAE4B366CEB9D7611DBD19B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B10635C311A1C7DC6E55B8A7C7E8056 /* Classes */,
+				9B8F7CB4D55E58507E62FE5447BBB527 /* Info.plist */,
+				1CFED8DF6A83BD3A4540226283701EBE /* TableCellPicker.modulemap */,
+				0580A5C91DB786257D9C35FE7123C7DD /* TableCellPicker.xcconfig */,
+				EB5A774ED179F36E2EC65D83DCCFBFAC /* TableCellPicker-dummy.m */,
+				3C6EBC245115F32FC5B61319BC9BD7CB /* TableCellPicker-prefix.pch */,
+				2695C88B8583A82D1E9D32F6A2384B8A /* TableCellPicker-umbrella.h */,
 			);
-			path = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TableCellPicker";
+			sourceTree = "<group>";
+		};
+		6937FAC312FA0693ADF7E40D9F0087CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB87DC2EAA6131394CAEB9125AFF6835 /* Pod */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				FA3882903C11624CB5E822588F682742 /* Development Pods */,
+				042858B32A92FC4E22FB735EE6DC8B61 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				882612F3660587FE08FE3103D75AA4C9 /* Products */,
 				9577977B6EC29691278DDFA298F957D7 /* Targets Support Files */,
@@ -181,20 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DAB04771733EA40F9E60A17B7D1B53A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6693098235257A741D45F6B618AD32E2 /* Info.plist */,
-				6CFA952D2DA5D7F38F5F5D2F0938F355 /* TableCellPicker.modulemap */,
-				2349AE4ACEF3C8E23AE520A1D9DD719C /* TableCellPicker.xcconfig */,
-				212BE38571AAAC4E41F5E037CACAFC97 /* TableCellPicker-dummy.m */,
-				F7B1BFA5E3F70AE44FBF61983900999C /* TableCellPicker-prefix.pch */,
-				5821B157FBECE1DFC9E52B4D28C40827 /* TableCellPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TableCellPicker";
-			sourceTree = "<group>";
-		};
 		9577977B6EC29691278DDFA298F957D7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +205,16 @@
 				A2319DB82B15C4B129B5688F1A544929 /* Pods-TableCellPicker_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9CD96B388A0F47D7918001FB2D8A9816 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB89F3D5A3877348DE6BA4042A1BCF26 /* TableCellPicker.swift */,
+				A201A04DDFFDF28D54F016FB8BD71D6A /* TableCellPicker.xib */,
+				C9B3CED1947F1C76393CC279C7E0F5A6 /* TableCellPicker-TableCellPicker-Bridging-Header.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		A2319DB82B15C4B129B5688F1A544929 /* Pods-TableCellPicker_Tests */ = {
@@ -222,6 +235,24 @@
 			path = "Target Support Files/Pods-TableCellPicker_Tests";
 			sourceTree = "<group>";
 		};
+		AF53BF94FD134901508B7F69FAF18513 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BA86C7D37114EBAF9DDE1787F4730F9A /* TableCellPicker */ = {
+			isa = PBXGroup;
+			children = (
+				03F1089C618F45D677B6530EEDB27A83 /* Pod */,
+				6937FAC312FA0693ADF7E40D9F0087CF /* Resources */,
+				4B07F36AAEAE4B366CEB9D7611DBD19B /* Support Files */,
+			);
+			name = TableCellPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,12 +269,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FA3882903C11624CB5E822588F682742 /* Development Pods */ = {
+		DB87DC2EAA6131394CAEB9125AFF6835 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				111CA7A5FCB85C232D43008FC024B584 /* TableCellPicker */,
+				AF53BF94FD134901508B7F69FAF18513 /* Classes */,
 			);
-			name = "Development Pods";
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,11 +288,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13F0C64BB87A69CD0DBE2ABFF6B0F577 /* Headers */ = {
+		2112AE7B39B02204D1282EFB30F7D647 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A1C460CB5BB36207B6E2F11795BCE6B /* TableCellPicker-umbrella.h in Headers */,
+				5807FFBE2DEA3FA76326D5473CDE401B /* TableCellPicker-TableCellPicker-Bridging-Header.h in Headers */,
+				6934E5D640CDF72DE92D2A5A4C582133 /* TableCellPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +312,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42DFC57B8E1846C49EFEBB1DCBFF25D2 /* Build configuration list for PBXNativeTarget "TableCellPicker" */;
 			buildPhases = (
-				AD06C1482796C7D676FB5F1F1DB99E50 /* Sources */,
+				0E566FA74B1BDE234626835B6929514D /* Sources */,
 				55D862B4E1ABD52925D021BCB95FAA6A /* Frameworks */,
 				4CE87C416BAAA5D8D426C97162712362 /* Resources */,
-				13F0C64BB87A69CD0DBE2ABFF6B0F577 /* Headers */,
+				2112AE7B39B02204D1282EFB30F7D647 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -301,7 +333,7 @@
 			buildPhases = (
 				82A6BF642F150751578B832E15E82BFB /* Sources */,
 				C0D9F70DE4D29D6AC6854BD60B7430E0 /* Frameworks */,
-				E6FF6F23D2272C5B39917AD73832003C /* Resources */,
+				99780164CCB2150A8B4962460B1AD5F8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -386,16 +418,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6FF6F23D2272C5B39917AD73832003C /* Resources */ = {
+		99780164CCB2150A8B4962460B1AD5F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CA20995DE98CC062A669049E04602B /* TableCellPicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0E566FA74B1BDE234626835B6929514D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFEB2C75C780B0207366BD3218238D3 /* TableCellPicker-dummy.m in Sources */,
+				82A1F5F660056B815B9B331D3535FB2F /* TableCellPicker.swift in Sources */,
+				A9381AAC1AA57EE62E5BA25ACFF30B27 /* TableCellPicker.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23C2FEF4FFF7258CC9893B40C0C3A3E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,15 +459,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F8F3AB3F7F055CC017714B0239E8C88 /* Pods-TableCellPicker_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD06C1482796C7D676FB5F1F1DB99E50 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45494F6BFB084E7C11C166AEE3D23711 /* ReplaceMe.swift in Sources */,
-				DCCE38743E8DE00990A79B91892049C4 /* TableCellPicker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +522,7 @@
 		};
 		37724272D6D55AAEB58CE9AD37815DCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2349AE4ACEF3C8E23AE520A1D9DD719C /* TableCellPicker.xcconfig */;
+			baseConfigurationReference = 0580A5C91DB786257D9C35FE7123C7DD /* TableCellPicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = TableCellPicker;
@@ -500,7 +534,7 @@
 		};
 		4480DC74211AD2DFD6DB01C3B3F7F48A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2349AE4ACEF3C8E23AE520A1D9DD719C /* TableCellPicker.xcconfig */;
+			baseConfigurationReference = 0580A5C91DB786257D9C35FE7123C7DD /* TableCellPicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -567,7 +601,7 @@
 		};
 		8D8CA0EC07E09A48CB9CA04E4C614040 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2349AE4ACEF3C8E23AE520A1D9DD719C /* TableCellPicker.xcconfig */;
+			baseConfigurationReference = 0580A5C91DB786257D9C35FE7123C7DD /* TableCellPicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = TableCellPicker;
@@ -671,7 +705,7 @@
 		};
 		C5B023454C0CBD8725889CF24587BB64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2349AE4ACEF3C8E23AE520A1D9DD719C /* TableCellPicker.xcconfig */;
+			baseConfigurationReference = 0580A5C91DB786257D9C35FE7123C7DD /* TableCellPicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

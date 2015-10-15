@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TableCellPicker: 7918a5fd2a725c7adfa4cb8f46095baa5c31db02
+  TableCellPicker: a9655369fe264be7423c757d6c5c07feb47a42b9
 
 COCOAPODS: 0.39.0
