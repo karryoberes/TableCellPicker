@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TableCellPicker"
-  s.version          = "0.1.2"
+  s.version          = "0.2"
   s.summary          = "A table view cell that displays a picker view for selecting a value."
 
 # This description is used to generate tags and improve search results.
